@@ -1,7 +1,7 @@
 
 function addlink() {
   var newArray =[]; 
-var pusharray=$(.storetext).val();
+var pusharray=$("#storetext").val();
 newArray.push(pusharray); 
   $("<img src="${newArray[0]}">").appendTo("container4");
   
