@@ -1,3 +1,8 @@
+var newArray =[]; 
+function addlink() {
+var pusharray=$(.storetext).val();
+newArray.push(pusharray); 
+} 
 function mypics() {
   var randomImg = Math.floor(Math.random() * 21) + 1;
 
