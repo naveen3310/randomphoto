@@ -1,11 +1,4 @@
 
-function addlink() {
-  var newArray =[]; 
-var pusharray=$("#storetext").val();
-newArray.push(pusharray); 
-  $("<img src="${newArray[0]}">").appendTo("container4");
-  
-} 
 function mypics() {
   var randomImg = Math.floor(Math.random() * 21) + 1;
 
@@ -17,6 +10,14 @@ function mypics() {
     $(`<img src='${url}'>`).appendTo("#container");
     $(`<img src='${url2}'>`).appendTo("#container2");
     $(`<img src='${url3}'>`).appendTo("#container3");
+    
+function addlink() {
+  var newArray =[]; 
+var pusharray=$("#storetext").val();
+newArray.push(pusharray); 
+  $("<img src="${newArray[0]}">").appendTo("container4");
+  
+} 
   
     
   });
