@@ -11,13 +11,7 @@ function mypics() {
     $(`<img src='${url2}'>`).appendTo("#container2");
     $(`<img src='${url3}'>`).appendTo("#container3");
     
-function addlink() {
-  var newArray =[]; 
-var pusharray=$("#storetext").val();
-newArray.push(pusharray); 
-  $("<img src="${newArray[0]}">").appendTo("container4");
-  
-} 
+
   
     
   });
